@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10/12/2021, 08:43:02
+    Author     : helbe
+*/
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #fafbfc;
+}
+
+header{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+main{
+    padding: 30px 50px;
+    
+}
+
+.card{
+    background-color: white;
+    border: 1px solid grey;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.lineInput{
+    display: grid;
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: 0;
+}
+
+button{
+    border: 0px;
+    padding: 10px;
+    outline: 0;
+    background-color: cornflowerblue;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: blue;
+}
+
+.content{
+    margin-top: 15px;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+table th{
+    background-color: cadetblue;
+}
+
+table th, td{
+    padding: 1px 5px;
+    text-align: left;
+}
+
+table td img{
+    width: 22px;
+    
+}
+
+.center{
+    text-align: center;
+}
